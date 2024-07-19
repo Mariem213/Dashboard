@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bom Tasks 2</title>
+    <link rel="stylesheet" href="css/loginStyle.css">
+    <script src="https://kit.fontawesome.com/508d83c547.js" crossorigin="anonymous" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <section class="contaner">
+        <h2>Login</h2>
+        <form method="post" id="loginForm" class="was-validated">
+            <div class="formInputs">
+                <input type="email" id="email" placeholder="Enter Your Email..." class="form-control is-invalid" id="validationTextarea" required>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="formInputs pass">
+                <input type="password" id="pass" placeholder="Enter Your Password..." class="form-control is-invalid" id="validationTextarea" required>
+                <i class="fa-solid fa-eye-slash" id="togglePassword"></i>
+            </div>
+            <div class="contain">
+                <div class="Left">
+                    <input type="checkbox" name="remMe" id="remMe">
+                    <label for="remMe">Remember me</label>
+                </div>
+                <div class="right">
+                    <a href="forgetPass.html">Forget Password?</a>
+                </div>
+            </div>
+            <button class="bttn" type="submit"><a href="index.html">Login</a></button>
+            <div class="socialLinks">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <a href="#" class="reg">Don't have an account? Register Now...</a>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/Login.js"></script>
+</body>
+</html>
